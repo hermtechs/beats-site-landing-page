@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop it </title>
+    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="./simplelightbox-master/src/simple-lightbox.scss">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/simplelightbox/1.17.2/simplelightbox.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Catamaran&amp;display=swap" rel="stylesheet">
+    <!-- <script src="https://use.fontawesome.com/306fdb4e0c.js"></script> -->
+    <script src="https://kit.fontawesome.com/451579efa6.js" crossorigin="anonymous"></script>
+    <!-- <script defer async src="index.js"></script> -->
+</head>
+<body>
+    <nav class="nav-bar">
+        <div class="nav-container">
+            <h1 class="logo">ShopIt</h1>
+            <ul class="nav">
+               <li> <a href="#">Home</a></li> 
+               <li><a href="#">About</a> </li> 
+            </ul>
+        </div>
+    </nav>
+    
+    <!-- SHOW CASE -->
+     <section class="section-1">
+         <div class="featured-section">
+             <article class="featured-sect-container"> 
+             <div class="description-text">
+             <h1>The headphones you look for</h1>       
+            <p class="description-text">Lorem ipsum dolor sit amet consectetur adipisicing 
+                    elit. Soluta minima ducimus culpa nostrum laudantium iste
+                     tempore! Nostrum eos aliquam error.</p>
+            <div class="btn">
+              <a href="#"> Read-more</a>
+             </div>
+            </div>  
+            
+            <div class="main-img"> <img src="./images/showcase.jpg" alt=""> </div>
+             </article>
+            </div>
+     </section>
+<section class="section-2">
+    <div class="overlay">
+    <div class="inner-text">    
+    <h3>Loud & Clear</h3>
+    <h1>
+        Pump Up The Music
+    </h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi recusandae,
+         deleniti fuga laboriosam, vero natus sunt non molestias nemo porro maxime 
+         at odit aperiam. 
+        Autem reiciendis quod deserunt culpa sed! Autem reiciendis quod deserunt culpa sed</p>
+    </div>
+ </div>     
+</section>
+
+<section class="section-3">
+<div class="gallery">
+<a href="./images/gal2323.jpg" class="big">
+<img src="./images/gal2323.jpg" alt="" >    
+</a>
+<a href="./images/gal39834.jpg" class="big">
+ <img src="./images/gal39834.jpg" alt="">  
+ </a>
+
+<a href="./images/gal43884.jpg">
+<img src="./images/gal43884.jpg" alt="" class="big second-last">    
+</a>
+
+ <a href="images/gal4545.jpg" class="big">
+ <img src="./images/gal4545.jpg" alt="" >    
+ </a>
+
+ <a href="images/gal4958.jpg" class="big">
+ <img src="./images/gal4958.jpg" alt="" >    
+ </a>
+
+ <a href="./images/showcase.jpg"  class="big">
+<img src="./images/showcase.jpg" alt=""/>  
+ </a>
+</div>
+</section>
+
+<section class="section-footer">
+    <footer class="footer">
+        <div class="icons">
+            <h2>Folllow Us for Updates</h2>
+            <a href="https://twitter.com">
+                <i class="fab fa-twitter"></i>
+            </a>
+            <a href="https://facebook.com">
+                <i class="fab fa-facebook"></i>
+            </a>
+            <a href="https://youtube.com">
+                <i class="fab fa-youtube"></i>
+            </a>
+        </div>
+        <div>
+            <h3>Company Info</h3>
+        <ul>
+          <li> <a href="#">All Products </a>     </li>  
+           <li> <a href="#">About Us </a>        </li> 
+           <li> <a href="#">Privacy Policy</a>   </li>
+           <li> <a href="#">Terms of service </a></li> 
+        </ul>
+        </div>
+        <div>
+            <h3>Blog Posts</h3>
+            <ul>
+                <li>
+                    <a href="#"><p>Lorem ipsum dolor sit</p></a>
+                </li>
+                <li>
+                    <a href="#"><p>Lorem ipsum dolor sit</p></a>
+                </li>
+                <li>
+                    <a href="#"><p>Lorem ipsum dolor sit</p></a>
+                </li>
+            </ul>
+        </div>
+        <div class="subscribe-part">
+            <h3>Subscribe</h3>
+            <p>For Weekly Updates on Products & Offers</p>
+            <form name="email-form" method="POST" data-netlify="true">
+              <span class="form-control-wrap">
+                <input type="email" placeholder="Enter your e-mail" name="email" size="40" id="email">
+              </span>  
+              <!-- <i class="far fa-envelope mail-icon"></i> -->
+              <button type="submit" class="form-control submit">
+                  <i class="fas fa-chevron-right"></i>
+              </button>
+
+            </form>
+        </div>
+    </footer>
+</section>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/simplelightbox/1.17.2/simple-lightbox.min.js"></script>
+<script>
+    $(function() {
+        const $gallery = $('.gallery a').simpleLightbox();
+      });
+</script>
+</body>
+</html> 
