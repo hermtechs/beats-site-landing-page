@@ -249,7 +249,17 @@ footer button{
 /* .gallery .second-last, .gallery .last{
     display: none;
 } */
-@media(min-width:500px){
+@media(max-width:500px){
+    .featured-section{
+        margin: 0;
+    }
+    .featured-sect-container .btn{
+        text-align: center;
+        font-size: 1.5rem;
+        position: relative;
+        top: 22px;
+    }
+    
     .gallery{
       display: flex;
       flex-wrap: wrap;
@@ -297,91 +307,5 @@ footer:last-child{
 
 /* LIGHTBOX */
 
-#lightbox{
-    position: fixed;
-    height: 100%;
-    width: 100%;
-    background-color: rgba(0,0,0, 0.8);
-    z-index: 100;
-    top: 0;
-    /* display: none; */
-}
-#hideLightBox{
-    display: none;
-}
-.lightboxImage{
-    max-width: 900px;
-    /* height: 55%; */
-    max-height: 380px;
-    margin:auto;
-    position: fixed;
-    z-index:200;
-    /* padding: 1rem; */
-    /* transition: transform .8s ease-in-out; */
-}
-@media(min-width:700px){
-    .lightboxImage{
-        max-height: 80%;  
-    }
-    .lightbox-container{
-        top:8rem;
 
-    }
-}
-/*.lightbox-container{
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    position: absolute;
-    top: 8rem;
-    width: 100%;
-    height: 100%;
-    padding: .1em;
-    
-}*/
-/* .lightboxImage:hover{
-    transform: rotate(1.5deg);
-} */
-
-/* Change Image Buttons */
-.nextBtn, .prevBtn{
-position: relative;
-display: inline-block;
-top:22.5%;
-z-index: 1050;
-color:rgb(199, 145, 75);
-/* font-weight: bolder; */
-font-size: 2rem;
-padding: .1em;
-cursor: pointer;
-}
-.nextBtn:hover, .prevBtn:hover{
-color:rgb(214, 140, 44);
-}
-.nextBtn{
-left: 42%;
-}
-.prevBtn{
-    right: 42%
-}
 /* CART  */
-.cart{
-    background-color: rgb(180, 124, 19);
-    position: relative;
-    /* display: inline-block; */
-    opacity: .9;
-    height: 30px;
-    width: 100%;
-    z-index: 260;
-    padding: .2em;
-    bottom: .38em;
-    transition: 1000ms;
-    display:none;
-    
-}
-.lightboxImage:hover .cart{
-    display: inline-block;
-    /* transform: translateY(-60%); */
-    /* background-color: orchid; */
-    cursor: pointer;
-}
