@@ -249,7 +249,7 @@ footer button{
 /* .gallery .second-last, .gallery .last{
     display: none;
 } */
-@media(max-width:500px){
+@media(max-width:800px){
     .featured-section{
         margin: 0;
     }
@@ -272,8 +272,8 @@ footer button{
     }
     .gallery a img{
         border-radius: .4em;
-        max-width: 200px;
-        max-height: 230px;
+        max-width: 300px;
+        max-height: 330px;
         box-shadow:1px 1px solid rgb(10, 9, 10);
     }
 }
