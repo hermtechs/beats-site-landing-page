@@ -70,7 +70,7 @@ ul{
 
 /* featured-section*/
 .featured-section{
-    margin: 2rem 0;
+    margin: 1.8rem 0;
     margin-left: 1.8rem;
 }
 .featured-sect-container{
@@ -87,7 +87,7 @@ ul{
 }
 .featured-section h1{
     color: var(--clr-btns);
-    font-size: 1.8rem;
+    font-size: 2rem;
     line-height: 1;
 }
 .featured-section .description-text{
@@ -258,6 +258,12 @@ footer button{
         font-size: 1.5rem;
         position: relative;
         top: 22px;
+    }
+    .featured-sect-container h1{
+        text-align: center;
+    }
+    .main-img{
+        text-align: center;
     }
     
     .gallery{
