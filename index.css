@@ -249,6 +249,24 @@ footer button{
 /* .gallery .second-last, .gallery .last{
     display: none;
 } */
+@media(min-width:500px){
+    .gallery{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      background-color: rgb(214, 190, 194);
+
+    }
+    .gallery a{
+        margin: .5em;
+    }
+    .gallery a img{
+        border-radius: .4em;
+        max-width: 200px;
+        max-height: 230px;
+        box-shadow:1px 1px solid rgb(10, 9, 10);
+    }
+}
 
 footer{
     grid-template-columns: 1fr;
@@ -310,7 +328,7 @@ footer:last-child{
 
     }
 }
-.lightbox-container{
+/*.lightbox-container{
     display: flex;
     justify-content: center;
     align-content: center;
@@ -320,7 +338,7 @@ footer:last-child{
     height: 100%;
     padding: .1em;
     
-}
+}*/
 /* .lightboxImage:hover{
     transform: rotate(1.5deg);
 } */
